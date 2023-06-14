@@ -17,6 +17,7 @@ public class Ejercicio4test extends TestBaseTodoIst {
 
         Assertions.assertTrue(menuSection.menuPerfilButton.isControlDisplayed(),
                 "ERROR!! login was not successfully, review credentials");
+
         menuSection.menuPerfilButton.click();
         menuSection.configurationButton.click();
         menuConfiguration.changePswButton.click();
